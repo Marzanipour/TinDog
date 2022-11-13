@@ -1,0 +1,200 @@
+body, p{
+  font-family: "Montserrat";
+}
+h3,h2{
+  font-family: "Open Sans";
+
+}
+/* Headings */
+.Title-name{
+  font-family: "Montserrat";
+  color:white;
+font-size: 4.5rem;
+  line-height: 1.5;
+}
+/* SECTIONS */
+.white-section{
+  background-color: white; color: black; font-family: "Open Sans";}
+.colored-section{background-color: #ef8172; color: white; font-family: "Open Sans";}
+/* ID's */
+
+#features{
+  position: relative;
+}
+#testimonials{
+  text-align: center;
+}
+#press{
+    text-align: center;
+padding-bottom: 3%;
+}
+#pricing{
+  padding: 100px;
+}
+#footer{
+  padding-top: 3%;
+}
+#cta{
+  background-color: #ff4c68;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+}
+
+.Bot{
+  padding: 5% 15% 7%;
+}
+.apple-logo{
+  width: 5%;
+  height: 5%;
+}
+.google-logo{
+  width:5%;
+  height:5%
+}
+
+/* navigation bar */
+
+#title{
+  background-color:  #ff4c68;
+  padding-bottom: 10%;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+.navbar-brand{
+font-family: "ubuntu";
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right:18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Montserrat-light";
+}
+.danger{
+  text-align: center;
+  font-family: "Montserrat";
+
+}
+/* Button */
+.Download-Button{
+  margin: 5% 3% 5% 0;
+}
+.danger-button{
+  margin-left: 40%;
+  font-size: 75px;
+}
+
+.icon{
+  color:#ef8172;
+}
+
+/* Title Image */
+.rotated{
+  width: 20%;
+  transform: rotate(20deg);
+  right:30%;
+  position: absolute;
+}
+@media (max-width: 1028px){
+#title{
+  text-align: center;
+}
+.rotated{
+
+position: static;
+width: 100%;
+transform: rotate(0);
+}
+}
+/* Feature */
+
+.dangerp{
+  font-size: 20px;
+  padding: 10px 70px;
+font-family: "Open Sans";
+color: grey;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* Testimonial */
+.Sag{
+padding-top: 10px;
+font-size: 3rem;
+padding-left: 10%;
+padding-right:10%;
+font-family: "Open Sans";
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+
+/* Press */
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+/* Pricing section */
+.mobtn{
+  padding-left: 10%;
+  padding-right:10%;
+}
+
+.yo{
+  margin-left: 4%;
+}
+.pp{
+  padding-left: 6%;
+}
+/* Pricing */
+
+.pricing-Column{
+  padding: 3% 2%;
+}
+.Freebtn{
+  padding-left: 10%;
+  padding-right:10%;
+}
+.mo99btn{
+  padding-left: 12%;
+  padding-right:12%;
+}
+/* CTA */
+
+
+
+
+.h3bottom{
+  color: white;
+  font-family: "Montserrat";
+  text-align: center;
+  padding-right: 35%;
+  padding-left: 35%;
+  padding-top: 3%;
+  font-size: 40px;
+}
+.ButtonBottom{
+  margin-left: 40%;
+}
+
+/* Footer */
+
+.em-wider { letter-spacing: 1em; }
+.PFooter{text-align: center;}
